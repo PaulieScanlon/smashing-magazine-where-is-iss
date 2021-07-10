@@ -1,0 +1,34 @@
+{
+  "name": "smashing-magazine-where-is-iss",
+  "version": "1.0.0",
+  "description": "A Gatsby Functions Demo using the Open Notify API to visualize the International Space Station",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "serve": "gatsby serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/smashing-magazine-where-is-iss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/smashing-magazine-where-is-iss/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/smashing-magazine-where-is-iss#readme",
+  "dependencies": {
+    "@react-three/drei": "^7.0.6",
+    "@react-three/fiber": "^7.0.4",
+    "axios": "^0.21.1",
+    "gatsby": "^3.9.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "three": "^0.130.1",
+    "three-geojson-geometry": "^1.1.5"
+  }
+}
