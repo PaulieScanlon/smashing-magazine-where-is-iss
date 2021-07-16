@@ -40,15 +40,9 @@ const ThreeIss = () => {
   return (
     <Fragment>
       {issNow ? (
-        <mesh
-          position={getVertex(
-            issNow.iss_position.latitude,
-            issNow.iss_position.longitude,
-            120
-          )}
-        >
+        <mesh position={getVertex(issNow.latitude, issNow.longitude, 120)}>
           <sphereGeometry args={[2]} />
-          <meshBasicMaterial color="#ffc400" />
+          <meshBasicMaterial color="#000000" />
         </mesh>
       ) : null}
     </Fragment>

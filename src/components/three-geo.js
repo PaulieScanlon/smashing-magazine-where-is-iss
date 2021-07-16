@@ -31,7 +31,7 @@ const ThreeGeo = () => {
                 key={index}
                 geometry={new GeoJsonGeometry(geometry, 100)}
               >
-                <lineBasicMaterial color="#80cbc4" />
+                <lineBasicMaterial color="#e753e7" />
               </lineSegments>
             );
           })}
